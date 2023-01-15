@@ -1,0 +1,10 @@
+* {
+  /* border: 1px solid blue; */
+  /* text-shadow: 0 0 0 rgb(5, 255, 251); */
+}
+
+.hero {
+  /* background-image: url(./assets/hello.png); */
+  /* background: no-repeat; */
+  background-size: cover;
+}
