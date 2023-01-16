@@ -7,6 +7,7 @@ import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { Facebook } from "@mui/icons-material";
 import { Twitter } from "@mui/icons-material";
 import "./footer.css";
+import { Space } from "../../config/space";
 
 const container = {
   show: {
@@ -80,7 +81,7 @@ export default function Footer() {
                   }}
                   color="white"
                 >
-                  <Phone /> &#160; (+261) 32 02 442 38
+                  <Phone /> <Space/> (+261) 32 02 442 38
                 </Typography>
                 <Typography
                   sx={{
@@ -93,7 +94,7 @@ export default function Footer() {
                   }}
                   color="white"
                 >
-                  <Phone /> &#160; (+261) 34 44 471 31
+                  <Phone /> <Space/> (+261) 34 44 471 31
                 </Typography>
                 <Typography
                   sx={{
@@ -105,7 +106,7 @@ export default function Footer() {
                   }}
                   color="white"
                 >
-                  <Markunread /> &#160; salon.digitex2022@gmail.com
+                  <Markunread /> <Space/> salon.digitex2022@gmail.com
                 </Typography>
               </Grid>
               <Grid
@@ -137,7 +138,7 @@ export default function Footer() {
                   }}
                   color="white"
                 >
-                  <ArrowForwardIosIcon /> &#160; À propos
+                  <ArrowForwardIosIcon /> <Space/> À propos
                 </Typography>
               </Grid>
               <Grid xs={12} sm={6} md={4}>
@@ -167,7 +168,7 @@ export default function Footer() {
                   <Avatar>
                     <Facebook sx={{ color: "#B712A5" }} />
                   </Avatar>
-                  &#160; &#160;
+                  <Space/> <Space/>
                   <Avatar>
                     <Twitter sx={{ color: "#B712A5" }} />
                   </Avatar>

@@ -10,14 +10,6 @@ const Title = styled(Typography)(({ theme }) => ({
   paddingTop: "12px",
   color: theme.palette.primary.contrastText,
 }));
-const BigTitle = styled(Typography)(({ theme }) => ({
-  fontSize: "6rem",
-  fontWeight: "516", //#ffd89b → #19547b #ff512f → #dd2476
-  background: "-webkit-linear-gradient(45deg, #ff512f 30%, #dd2476 90%)",
-  // background: "-webkit-linear-gradient(90deg, #FE6B8B 30%, #FF8E53 90%)",
-  WebkitBackgroundClip: "text",
-  WebkitTextFillColor: "transparent",
-}));
 
 function dateDiff(staticDate, currentDate) {
   var diff = {};
@@ -72,7 +64,7 @@ export default function HeroSection() {
             <Box
               component={"img"}
               src={BG}
-              sx={{ width: "99.1vw", height: height, zIndex: "1" }}
+              sx={{ width: "100vw", height: height, zIndex: "1" }}
               alt=""
             />
           </Box>
@@ -113,7 +105,7 @@ export default function HeroSection() {
                   <Box
                     component={"span"}
                     sx={{
-                      fontSize: { xs: "2rem", md: "2.6rem" },
+                      fontSize: { xs: "2.3rem", md: "2.6rem" },
                       color: "#0040ff",
                       fontWeight: "516",
                     }}
@@ -125,9 +117,8 @@ export default function HeroSection() {
                     sx={{
                       display: "block",
                       fontWeight: "516",
-                      fontSize: { xs: "3rem", md: "6rem" },
-                      marginTop: { xs: "-18px", md: "-30px" },
-                      fontSize: "6rem",
+                      fontSize: { xs: "3.5rem", md: "6rem" },
+                      marginTop: { xs: "-15px", md: "-30px" },
                       fontWeight: "516",
                       background:
                         "-webkit-linear-gradient(45deg, #ff512f 30%, #dd2476 90%)",
@@ -144,7 +135,7 @@ export default function HeroSection() {
                       fontWeight: "516",
                       color: "#a43981",
                       fontSize: { xs: "1.2rem", md: "1.9vw", sm: "1.2rem" },
-                      marginTop: { xs: "-18px", md: "-22px" },
+                      marginTop: { xs: "-10px", md: "-22px" },
                     }}
                   >
                     {" "}
@@ -158,7 +149,7 @@ export default function HeroSection() {
                     color: theme.palette.primary.contrastText,
                     float: "right",
                     fontSize: { xs: "2.25rem", md: "5vw" },
-                    marginLeft: "50px",
+                    marginLeft: {xs:"50px",sm:"0",md:"50px"},
                   }}
                 >
                   <Box
@@ -169,7 +160,7 @@ export default function HeroSection() {
                     <Box
                       component={"span"}
                       sx={{
-                        fontSize: "4rem",
+                        fontSize: {xs:"2.7rem",sm:"7vw"},
                         fontWeight: "516",
                         background:
                           "-webkit-linear-gradient(45deg, 	#ffab00 30%, #a6001a 90%)",
@@ -183,7 +174,7 @@ export default function HeroSection() {
                     <Box
                       component={"span"}
                       sx={{
-                        fontSize: "4rem",
+                        fontSize: {xs:"2.7rem",sm:"7vw"},
                         fontWeight: "516",
                         background:
                           "-webkit-linear-gradient(45deg, 	#ffab00 30%, #a6001a 90%)",
@@ -210,30 +201,24 @@ export default function HeroSection() {
               </Grid>
               <Grid
                 xs={12}
-                sm={2}
-                sx={{
-                  display: { xs: "grid", md: "none" },
-                  padding: { xs: "0px 0 0 0", md: "110px 0px 0px 1.333vw" },
-                }}
-              ></Grid>
-              <Grid
-                xs={12}
-                sm={4}
+                sm={5}
+                md={4}
                 sx={{
                   width: { xs: "50px", md: "600px" },
-                  margin: { xs: "65px 0 0 0", md: "100px auto" },
-                  padding: { xs: "0px 0px 0px 0px", md: "0px 0px 0px 0px" },
+                  margin: { xs: "55px 0 0 0", sm: "100px auto" },
+                  padding:{xs:"0 0px 0 0",sm:"0 0 0 0"},
                 }}
               >
-                <Grid container>
-                  <Grid
-                    xs={12}
+                <Grid 
+                container
                     sx={{
                       padding: {
                         xs: "0px 20px 0px 0px",
                         md: "0px 30px 0px 0px",
                       },
-                    }}
+                    }}>
+                  <Grid
+                    xs={12}
                   >
                     <Typography
                       variant="h6"
@@ -254,10 +239,6 @@ export default function HeroSection() {
                   <Grid
                     xs={12}
                     sx={{
-                      padding: {
-                        xs: "0px 20px 0px 0px",
-                        md: "0px 30px 0px 0px",
-                      },
                       position: "relative",
                       top: { xs: "9px", md: "4vw" },
                     }}
