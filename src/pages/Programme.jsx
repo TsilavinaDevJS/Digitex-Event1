@@ -117,7 +117,7 @@ export default function Programme() {
                       marginBottom: "5px",
                       marginTop: "4px",
                     }}>
-                    8h : La transformation digitale un levier de croissance
+                    8H30 : La transformation digitale un levier de croissance
                     économique,
                   </Typography>
                 </Box>
@@ -128,7 +128,7 @@ export default function Programme() {
                       fontSize: { xs: "3.2vw", sm: "1rem" },
                       fontWeight: "512",
                     }}>
-                    10h : Financer vos projects innovants
+                    10h : Fintech et Cryptomonnaie
                   </Typography>
                 </Box>
               </Box>
@@ -200,7 +200,7 @@ export default function Programme() {
                       marginBottom: "5px",
                       marginTop: "4px",
                     }}>
-                    8h : Quelles formations pour les métiers dans la digital?
+                    8H30 : Quelles formations pour les métiers dans la digital?
                   </Typography>
                 </Box>
                 <Box component={"li"} className={classes.ComponentList}>
@@ -210,7 +210,17 @@ export default function Programme() {
                       fontSize: { xs: "3.2vw", sm: "1rem" },
                       fontWeight: "512",
                     }}>
-                    10h : La maîtrise du big data comme outils stratégique,
+                    9h-10h : Pitcher votre projets et votre idées
+                  </Typography>
+                </Box>
+                <Box component={"li"} className={classes.ComponentList}>
+                  <Typography
+                    className={classes.List}
+                    sx={{
+                      fontSize: { xs: "3.2vw", sm: "1rem" },
+                      fontWeight: "512",
+                    }}>
+                    10h : Financer vos projects innovants
                   </Typography>
                 </Box>
               </Box>
@@ -282,7 +292,17 @@ export default function Programme() {
                       marginBottom: "5px",
                       marginTop: "4px",
                     }}>
-                    8h : L'entrepreunariat dans la tech,
+                    8H30 : L'entrepreunariat dans la tech,
+                  </Typography>
+                </Box>
+                <Box component={"li"} className={classes.ComponentList}>
+                  <Typography
+                    className={classes.List}
+                    sx={{
+                      fontSize: { xs: "3.2vw", sm: "1rem" },
+                      fontWeight: "512",
+                    }}>
+                    10h : La maîtrise du big data comme outils stratégique,
                   </Typography>
                 </Box>
               </Box>

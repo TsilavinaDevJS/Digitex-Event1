@@ -204,6 +204,7 @@ export default function HeroSection() {
                     <Typography
                       variant="h6"
                       sx={{
+                        fontFamily: "italic",
                         textAlign: "end",
                         color: "#171544",
                         fontWeight: "521",
