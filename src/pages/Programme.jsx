@@ -200,7 +200,8 @@ export default function Programme() {
                       marginBottom: "5px",
                       marginTop: "4px",
                     }}>
-                    8H30 : Quelles formations pour les métiers dans la digital?
+                    8H30-10h : Quelles formations pour les métiers dans la
+                    digital?
                   </Typography>
                 </Box>
                 <Box component={"li"} className={classes.ComponentList}>
@@ -210,7 +211,7 @@ export default function Programme() {
                       fontSize: { xs: "3.2vw", sm: "1rem" },
                       fontWeight: "512",
                     }}>
-                    9h-10h : Pitcher votre projets et votre idées
+                    9h-12h : Pitcher votre projets et votre idées
                   </Typography>
                 </Box>
                 <Box component={"li"} className={classes.ComponentList}>

@@ -200,7 +200,7 @@ export default function Thématique() {
               </ComponentLogo>
             </Grid>
             <Grid xs={9}>
-              <Para2>Ecoles, universités et formation divers.</Para2>
+              <Para2>Ecoles, Universités et Formations diverses.</Para2>
             </Grid>
           </Grid>
         </Grid>
