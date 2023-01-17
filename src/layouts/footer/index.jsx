@@ -141,7 +141,7 @@ export default function Footer() {
                         }}
                         color="white">
                         <IconButton
-                          href="https://web.facebook.com/profile.php?id=1000892852959663"
+                          href="https://web.facebook.com/profile.php?id=100089285295963&eav=AfYTTleUZcaThdDHdeOg2pHmo3la0KDbTAjfxkgzi7LYsZFqnKzlvu2wrnVTZ-77hT8&refid=12&__tn__=H&paipv=0"
                           target="_blank">
                           <Avatar>
                             <Facebook sx={{ color: "#B712A5" }} />
@@ -149,7 +149,7 @@ export default function Footer() {
                         </IconButton>
                         <Space /> <Space />
                         <IconButton
-                          href="https://www.linkedIn.com/company/digitexmadagascar"
+                          href="https://www.linkedin.com/company/digitexmadagascar/?fbclid=IwAR013SRKTr7_WjaUlHPFOA_j0y2mx72CQdBlFeWiprYxj7RpqrvsQ8lD7NI&original_referer=https%3A%2F%2Flm.facebook.com%2F"
                           target="_blank">
                           <Avatar>
                             <LinkedIn sx={{ color: "#B712A5" }} />
