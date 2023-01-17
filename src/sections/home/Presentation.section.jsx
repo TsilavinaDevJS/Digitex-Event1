@@ -31,12 +31,13 @@ export function Presentation() {
               width: { xs: "100vw", sm: "380px" },
               marginLeft: { xs: "0", sm: "4px" },
             }}
-            container
-          >
+            container>
             <Grid xs={10}>
               <Title
-                sx={{ fontSize: { xs: "16px", sm: "20px" }, paddingTop: "4px" }}
-              >
+                sx={{
+                  fontSize: { xs: "16px", sm: "20px" },
+                  paddingTop: "4px",
+                }}>
                 PRESENTATION DIGITEX
               </Title>
             </Grid>
@@ -58,7 +59,7 @@ export function Presentation() {
             </Para2>
             <br />
             <Para2>
-              Parmi les pilliers sur lesquels reposent le pillotage de la
+              Parmi les pilliers sur lesquels reposent le pilotage de la
               performance de l'entreprise ainsi que sa digitalisation, l'ERP, le
               CRM, les solution d'E-Achat, la dématérialisation, la BI ainsi que
               la Data jouent un rôle stratégique.
@@ -66,7 +67,7 @@ export function Presentation() {
             <br />
             <Para2>
               Madagascar étant un pays à opportunités pour l'externalisation des
-              functions et des services,
+              fonctions et des services,
             </Para2>
             <Para2>
               Les nouvelles technologies prennent d'avantages de place dans la

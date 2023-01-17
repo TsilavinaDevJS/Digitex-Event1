@@ -70,7 +70,7 @@ export default function Thématique() {
               </ComponentLogo>
             </Grid>
             <Grid xs={9}>
-              <Para2>Les entreprises de Service Numérique</Para2>
+              <Para2>Entreprises de Service Numérique,</Para2>
             </Grid>
           </Grid>
           <Grid container sx={{ marginBottom: "12px", alignItems: "center" }}>
@@ -114,7 +114,7 @@ export default function Thématique() {
               </ComponentLogo>
             </Grid>
             <Grid xs={9}>
-              <Para2>Les fournisseurs en téléphoniques et internet</Para2>
+              <Para2>Fournisseurs en téléphoniques et internet,</Para2>
             </Grid>
           </Grid>
           <Grid container sx={{ marginBottom: "12px", alignItems: "center" }}>
@@ -135,7 +135,7 @@ export default function Thématique() {
               </ComponentLogo>
             </Grid>
             <Grid xs={9}>
-              <Para2>Les fourniseurs de matériels technologiques</Para2>
+              <Para2>Fourniseurs de matériels technologiques,</Para2>
             </Grid>
           </Grid>
           <Grid container sx={{ marginBottom: "12px", alignItems: "center" }}>
@@ -157,7 +157,7 @@ export default function Thématique() {
             </Grid>
             <Grid xs={9}>
               <Para2>
-                Les fournisseurs d'application et de solutions numériques
+                Fournisseurs d'application et de solutions numériques,
               </Para2>
             </Grid>
           </Grid>
@@ -179,7 +179,7 @@ export default function Thématique() {
               </ComponentLogo>
             </Grid>
             <Grid xs={9}>
-              <Para2>Institutions financières</Para2>
+              <Para2>Institutions financières,</Para2>
             </Grid>
           </Grid>
           <Grid container sx={{ marginBottom: "12px", alignItems: "center" }}>
@@ -200,7 +200,7 @@ export default function Thématique() {
               </ComponentLogo>
             </Grid>
             <Grid xs={9}>
-              <Para2>Ecoles et universités</Para2>
+              <Para2>Ecoles, universités, divers activités.</Para2>
             </Grid>
           </Grid>
         </Grid>
@@ -245,7 +245,7 @@ export default function Thématique() {
               </ComponentLogo>
             </Grid>
             <Grid xs={9}>
-              <Para2>Les entreprises de Service Numérique</Para2>
+              <Para2>Entreprises de Service Numérique,</Para2>
             </Grid>
           </Grid>
           <Grid container sx={{ marginBottom: "12px", alignItems: "center" }}>
@@ -266,9 +266,7 @@ export default function Thématique() {
               </ComponentLogo>
             </Grid>
             <Grid xs={9}>
-              <Para2>
-                Les entreprises d'Outsoucing : Call Center,assistant...
-              </Para2>
+              <Para2>Entreprises d'Outsoucing : Call Center,assistant...</Para2>
             </Grid>
           </Grid>
           <Grid container sx={{ marginBottom: "12px", alignItems: "center" }}>
@@ -289,7 +287,7 @@ export default function Thématique() {
               </ComponentLogo>
             </Grid>
             <Grid xs={9}>
-              <Para2>Les fournisseurs en téléphoniques et internet</Para2>
+              <Para2>Fournisseurs en téléphoniques et internet,</Para2>
             </Grid>
           </Grid>
 
@@ -311,7 +309,7 @@ export default function Thématique() {
               </ComponentLogo>
             </Grid>
             <Grid xs={9}>
-              <Para2>Les fourniseurs de matériels technologiques</Para2>
+              <Para2>Fourniseurs de matériels technologiques,</Para2>
             </Grid>
           </Grid>
           <Grid container sx={{ marginBottom: "12px", alignItems: "center" }}>
@@ -333,7 +331,7 @@ export default function Thématique() {
             </Grid>
             <Grid xs={9}>
               <Para2>
-                Les fournisseurs d'application et de solutions numériques
+                Fournisseurs d'application et de solutions numériques,
               </Para2>
             </Grid>
           </Grid>
@@ -355,7 +353,7 @@ export default function Thématique() {
               </ComponentLogo>
             </Grid>
             <Grid xs={9}>
-              <Para2>Institutions financières</Para2>
+              <Para2>Institutions financières,</Para2>
             </Grid>
           </Grid>
           <Grid container sx={{ marginBottom: "12px", alignItems: "center" }}>
@@ -376,7 +374,7 @@ export default function Thématique() {
               </ComponentLogo>
             </Grid>
             <Grid xs={9}>
-              <Para2>Ecoles et universités</Para2>
+              <Para2>Ecoles, universités, divers activités.</Para2>
             </Grid>
           </Grid>
         </Grid>

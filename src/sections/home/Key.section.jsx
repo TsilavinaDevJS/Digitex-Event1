@@ -261,7 +261,7 @@ export function KeyNumbers() {
                       borderBottom: `4px solid ${ColorFleche}`,
                       fontSize: { xs: "10px", md: "1.56vw" },
                     }}>
-                    <span style={{ color: "#B712A5" }}>+ 6 </span>
+                    <span style={{ color: "#B712A5" }}>+ 10 </span>
                     CONFÉRENCES
                   </Title>
                 </Grid>
