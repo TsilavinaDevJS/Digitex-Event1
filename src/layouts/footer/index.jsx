@@ -86,7 +86,7 @@ export default function Footer() {
                           justifyContent: { xs: "center", sm: "start" },
                         }}
                         color="white">
-                        <Markunread /> <Space /> salon.digitex2022@gmail.com
+                        <Markunread /> <Space /> infos@salon-digitex.mg
                       </Typography>
                     </Grid>
                     <Grid

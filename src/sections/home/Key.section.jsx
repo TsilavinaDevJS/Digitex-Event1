@@ -47,8 +47,7 @@ function ExpandMoreCode() {
             display: "grid",
             justifyContent: "center",
             alignContent: "flex-start",
-          }}
-        >
+          }}>
           <ExpandMore
             sx={{
               color: ColorFleche,
@@ -82,8 +81,7 @@ function ExpandLessCode() {
             display: "grid",
             justifyContent: "center",
             alignContent: "flex-start",
-          }}
-        >
+          }}>
           <ExpandLess
             sx={{
               color: ColorFleche,
@@ -107,12 +105,10 @@ export function KeyNumbers() {
             width: { xs: "100vw", sm: "380px" },
             marginLeft: { xs: "0", sm: "4px" },
           }}
-          container
-        >
+          container>
           <Grid xs={10}>
             <Title
-              sx={{ fontSize: { xs: "16px", sm: "20px" }, paddingTop: "4px" }}
-            >
+              sx={{ fontSize: { xs: "16px", sm: "20px" }, paddingTop: "4px" }}>
               LES CHIFFRES CLÉS
             </Title>
           </Grid>
@@ -126,8 +122,7 @@ export function KeyNumbers() {
               <Grid container>
                 <Grid
                   xs={12}
-                  sx={{ display: "grid", justifyContent: "center" }}
-                >
+                  sx={{ display: "grid", justifyContent: "center" }}>
                   <ComponentLogo
                     sx={{
                       width: { xs: "17vw", sm: "9.77vw" },
@@ -135,8 +130,7 @@ export function KeyNumbers() {
                       display: "grid",
                       justifyContent: "center",
                       alignContent: "center",
-                    }}
-                  >
+                    }}>
                     <Box
                       component="img"
                       src={Stand}
@@ -150,22 +144,19 @@ export function KeyNumbers() {
                 </Grid>
                 <Grid
                   xs={12}
-                  sx={{ display: "grid", justifyContent: "center" }}
-                >
+                  sx={{ display: "grid", justifyContent: "center" }}>
                   <ExpandMoreCode />
                 </Grid>
                 <Grid
                   xs={12}
-                  sx={{ display: "grid", justifyContent: "center" }}
-                >
+                  sx={{ display: "grid", justifyContent: "center" }}>
                   <Title
                     sx={{
                       textAlign: "center",
                       borderBottom: `4px solid ${ColorFleche}`,
                       fontSize: { xs: "10px", md: "1.56vw" },
-                    }}
-                  >
-                    <span style={{ color: "#B712A5" }}>+ 100 </span>
+                    }}>
+                    <span style={{ color: "#B712A5" }}>+ 50 </span>
                     STANDS
                   </Title>
                 </Grid>
@@ -175,29 +166,25 @@ export function KeyNumbers() {
               <Grid container>
                 <Grid
                   xs={12}
-                  sx={{ display: "grid", justifyContent: "center" }}
-                >
+                  sx={{ display: "grid", justifyContent: "center" }}>
                   <Title
                     sx={{
                       textAlign: "center",
                       borderBottom: `4px solid ${ColorFleche}`,
                       fontSize: { xs: "10px", md: "1.56vw" },
-                    }}
-                  >
+                    }}>
                     <span style={{ color: "#B712A5" }}>+ 5000 </span>
                     VISITEURS ATTENDUS
                   </Title>
                 </Grid>
                 <Grid
                   xs={12}
-                  sx={{ display: "grid", justifyContent: "center" }}
-                >
+                  sx={{ display: "grid", justifyContent: "center" }}>
                   <ExpandLessCode />
                 </Grid>
                 <Grid
                   xs={12}
-                  sx={{ display: "grid", justifyContent: "center" }}
-                >
+                  sx={{ display: "grid", justifyContent: "center" }}>
                   <ComponentLogo
                     sx={{
                       width: { xs: "17vw", sm: "9.77vw" },
@@ -205,8 +192,7 @@ export function KeyNumbers() {
                       display: "grid",
                       justifyContent: "center",
                       alignContent: "center",
-                    }}
-                  >
+                    }}>
                     <Box
                       component="img"
                       src={GroupsPersonal}
@@ -224,8 +210,7 @@ export function KeyNumbers() {
               <Grid container>
                 <Grid
                   xs={12}
-                  sx={{ display: "grid", justifyContent: "center" }}
-                >
+                  sx={{ display: "grid", justifyContent: "center" }}>
                   <ComponentLogo
                     sx={{
                       width: { xs: "17vw", sm: "9.77vw" },
@@ -233,8 +218,7 @@ export function KeyNumbers() {
                       display: "grid",
                       justifyContent: "center",
                       alignContent: "center",
-                    }}
-                  >
+                    }}>
                     <Box
                       component="img"
                       src={Book}
@@ -248,21 +232,18 @@ export function KeyNumbers() {
                 </Grid>
                 <Grid
                   xs={12}
-                  sx={{ display: "grid", justifyContent: "center" }}
-                >
+                  sx={{ display: "grid", justifyContent: "center" }}>
                   <ExpandMoreCode />
                 </Grid>
                 <Grid
                   xs={12}
-                  sx={{ display: "grid", justifyContent: "center" }}
-                >
+                  sx={{ display: "grid", justifyContent: "center" }}>
                   <Title
                     sx={{
                       textAlign: "center",
                       borderBottom: `4px solid ${ColorFleche}`,
                       fontSize: { xs: "10px", md: "1.56vw" },
-                    }}
-                  >
+                    }}>
                     <span style={{ color: "#B712A5" }}>+ 7 </span>
                     UNIVERS THÉMATIQUES
                   </Title>
@@ -273,29 +254,25 @@ export function KeyNumbers() {
               <Grid container>
                 <Grid
                   xs={12}
-                  sx={{ display: "grid", justifyContent: "center" }}
-                >
+                  sx={{ display: "grid", justifyContent: "center" }}>
                   <Title
                     sx={{
                       textAlign: "center",
                       borderBottom: `4px solid ${ColorFleche}`,
                       fontSize: { xs: "10px", md: "1.56vw" },
-                    }}
-                  >
-                    <span style={{ color: "#B712A5" }}>+ 10 </span>
-                    CONFÉRENCE
+                    }}>
+                    <span style={{ color: "#B712A5" }}>+ 6 </span>
+                    CONFÉRENCES
                   </Title>
                 </Grid>
                 <Grid
                   xs={12}
-                  sx={{ display: "grid", justifyContent: "center" }}
-                >
+                  sx={{ display: "grid", justifyContent: "center" }}>
                   <ExpandLessCode />
                 </Grid>
                 <Grid
                   xs={12}
-                  sx={{ display: "grid", justifyContent: "center" }}
-                >
+                  sx={{ display: "grid", justifyContent: "center" }}>
                   <ComponentLogo
                     sx={{
                       width: { xs: "17vw", sm: "9.77vw" },
@@ -303,8 +280,7 @@ export function KeyNumbers() {
                       display: "grid",
                       justifyContent: "center",
                       alignContent: "center",
-                    }}
-                  >
+                    }}>
                     <Box
                       component="img"
                       src={ConferenceImage}
@@ -322,8 +298,7 @@ export function KeyNumbers() {
               <Grid container>
                 <Grid
                   xs={12}
-                  sx={{ display: "grid", justifyContent: "center" }}
-                >
+                  sx={{ display: "grid", justifyContent: "center" }}>
                   <ComponentLogo
                     sx={{
                       width: { xs: "17vw", sm: "9.77vw" },
@@ -331,8 +306,7 @@ export function KeyNumbers() {
                       display: "grid",
                       justifyContent: "center",
                       alignContent: "center",
-                    }}
-                  >
+                    }}>
                     <Box
                       component="img"
                       src={Location}
@@ -346,21 +320,18 @@ export function KeyNumbers() {
                 </Grid>
                 <Grid
                   xs={12}
-                  sx={{ display: "grid", justifyContent: "center" }}
-                >
+                  sx={{ display: "grid", justifyContent: "center" }}>
                   <ExpandMoreCode />
                 </Grid>
                 <Grid
                   xs={12}
-                  sx={{ display: "grid", justifyContent: "center" }}
-                >
+                  sx={{ display: "grid", justifyContent: "center" }}>
                   <Title
                     sx={{
                       textAlign: "center",
                       borderBottom: `4px solid ${ColorFleche}`,
                       fontSize: { xs: "10px", md: "1.56vw" },
-                    }}
-                  >
+                    }}>
                     <span style={{ color: "#B712A5" }}>+ 1000 </span>
                     m2 DE SURFACE COUVERTE
                   </Title>
