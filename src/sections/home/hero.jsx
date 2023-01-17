@@ -58,20 +58,18 @@ export default function HeroSection() {
   return (
     <>
       <Box sx={{ paddingTop: { xs: "0px", md: "0px" } }}>
-        {/* <Box sx={{paddingTop:{xs:"66px",md:"82px"}}}> */}
-        <Box>
-          <Box sx={{ position: "absolute" }}>
-            <Box
-              component={"img"}
-              src={BG}
-              sx={{ width: "100vw", height: height, zIndex: "1" }}
-              alt=""
-            />
-          </Box>
+        <Box
+          sx={{
+            width: "100vw",
+            height: height,
+            zIndex: "1",
+            backgroundImage: `url(${BG})`,
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+          }}>
           <Box
             ref={containerRef}
-            sx={{ zIndex: "99", position: "relative", padding: "4px" }}
-          >
+            sx={{ zIndex: "99", position: "relative", padding: "4px" }}>
             <Grid container>
               <Grid
                 xs={12}
@@ -79,8 +77,7 @@ export default function HeroSection() {
                 sx={{
                   display: { xs: "none", md: "grid" },
                   padding: { xs: "0px 0 0 0", md: "110px 0px 0px 1.333vw" },
-                }}
-              >
+                }}>
                 <Box
                   component={"img"}
                   src={Vr}
@@ -99,8 +96,7 @@ export default function HeroSection() {
                 sx={{
                   display: "grid",
                   padding: { xs: "80px 0 0 20px", md: "120px 0px 0px 4vw" },
-                }}
-              >
+                }}>
                 <Title sx={{ display: "inline" }}>
                   <Box
                     component={"span"}
@@ -108,15 +104,13 @@ export default function HeroSection() {
                       fontSize: { xs: "2.3rem", md: "2.6rem" },
                       color: "#0040ff",
                       fontWeight: "516",
-                    }}
-                  >
+                    }}>
                     Salon
                   </Box>
                   <Box
                     component={"span"}
                     sx={{
                       display: "block",
-                      fontWeight: "516",
                       fontSize: { xs: "3.5rem", md: "6rem" },
                       marginTop: { xs: "-15px", md: "-30px" },
                       fontWeight: "516",
@@ -124,8 +118,7 @@ export default function HeroSection() {
                         "-webkit-linear-gradient(45deg, #ff512f 30%, #dd2476 90%)",
                       WebkitBackgroundClip: "text",
                       WebkitTextFillColor: "transparent",
-                    }}
-                  >
+                    }}>
                     DIGITEX
                   </Box>
                   <Box
@@ -136,12 +129,10 @@ export default function HeroSection() {
                       color: "#a43981",
                       fontSize: { xs: "1.2rem", md: "1.9vw", sm: "1.2rem" },
                       marginTop: { xs: "-10px", md: "-22px" },
-                    }}
-                  >
+                    }}>
                     {" "}
                     Digitalisation-Technologie-Externalisation
                   </Box>
-                  {/* <Box component={"span"} sx={{display:"block",fontWeight:"516",fontSize:{xs:"3rem",md:"4rem"},marginTop:{xs:"-18px",md:"-30px"}}}> 2023</Box>  */}
                 </Title>
                 <Typography
                   variant="h4"
@@ -149,55 +140,48 @@ export default function HeroSection() {
                     color: theme.palette.primary.contrastText,
                     float: "right",
                     fontSize: { xs: "2.25rem", md: "5vw" },
-                    marginLeft: {xs:"50px",sm:"0",md:"50px"},
-                  }}
-                >
+                    marginLeft: { xs: "50px", sm: "0", md: "50px" },
+                  }}>
                   <Box
                     component={"span"}
-                    sx={{ display: "block", fontWeight: "521", color: "#fff" }}
-                  >
+                    sx={{
+                      display: "block",
+                      fontWeight: "521",
+                      color: "#fff",
+                    }}>
                     Du{" "}
                     <Box
                       component={"span"}
                       sx={{
-                        fontSize: {xs:"2.7rem",sm:"7vw"},
+                        fontSize: { xs: "2.7rem", sm: "7vw" },
                         fontWeight: "516",
                         background:
                           "-webkit-linear-gradient(45deg, 	#ffab00 30%, #a6001a 90%)",
                         WebkitBackgroundClip: "text",
                         WebkitTextFillColor: "transparent",
-                      }}
-                    >
+                      }}>
                       29
                     </Box>{" "}
                     au{" "}
                     <Box
                       component={"span"}
                       sx={{
-                        fontSize: {xs:"2.7rem",sm:"7vw"},
+                        fontSize: { xs: "2.7rem", sm: "7vw" },
                         fontWeight: "516",
                         background:
                           "-webkit-linear-gradient(45deg, 	#ffab00 30%, #a6001a 90%)",
                         WebkitBackgroundClip: "text",
                         WebkitTextFillColor: "transparent",
-                      }}
-                    >
+                      }}>
                       31
                     </Box>
                   </Box>
                   <Box
                     component={"span"}
-                    sx={{ color: "#0040ff", fontWeight: "521" }}
-                  >
+                    sx={{ color: "#0040ff", fontWeight: "521" }}>
                     Mars 2023
                   </Box>
                 </Typography>
-                {/* <Typography variant="h6" sx={{color:theme.palette.primary.contrastText,fontSize:{xs:"1rem",md:"1.25rem"}}}>
-                  "La transition numérique au coeur du développement"
-                  </Typography> */}
-                {/* <Typography variant="body1" sx={{color:theme.palette.primary.contrastText,position:"relative",top:"16px",left:"15px",width:"320px",fontSize:{xs:"0.8rem",md:"1rem"}}}>
-                      Sous le parrainage du Ministère de la Poste et de la Transformation Digitale
-                  </Typography> */}
               </Grid>
               <Grid
                 xs={12}
@@ -206,20 +190,17 @@ export default function HeroSection() {
                 sx={{
                   width: { xs: "50px", md: "600px" },
                   margin: { xs: "55px 0 0 0", sm: "100px auto" },
-                  padding:{xs:"0 0px 0 0",sm:"0 0 0 0"},
-                }}
-              >
-                <Grid 
-                container
-                    sx={{
-                      padding: {
-                        xs: "0px 20px 0px 0px",
-                        md: "0px 30px 0px 0px",
-                      },
-                    }}>
-                  <Grid
-                    xs={12}
-                  >
+                  padding: { xs: "0 0px 0 0", sm: "0 0 0 0" },
+                }}>
+                <Grid
+                  container
+                  sx={{
+                    padding: {
+                      xs: "0px 20px 0px 0px",
+                      md: "0px 30px 0px 0px",
+                    },
+                  }}>
+                  <Grid xs={12}>
                     <Typography
                       variant="h6"
                       sx={{
@@ -227,30 +208,23 @@ export default function HeroSection() {
                         color: "#171544",
                         fontWeight: "521",
                         fontSize: { xs: "1rem", md: "2.5rem" },
-                      }}
-                    >
+                      }}>
                       "La transition numérique au coeur du développement"
                     </Typography>
-                    {/* <Typography variant="h4" sx={{color:theme.palette.primary.contrastText,float:"right",fontSize:{xs:"2.25rem",md:"3.25rem"}}}>
-                      <Box component={"span"}  sx={{display:"block",fontWeight:"521", color:"#96347c"}}>Du <Box component={"span"} sx={{color:"#0040ff"}}>29</Box> au <Box component={"span"} sx={{color:"#0040ff"}}>31</Box></Box>
-                      <Box component={"span"}  sx={{float:"right", color:"#00a3ff",fontweight:"521"}}>Mars 2023</Box>
-                    </Typography > */}
                   </Grid>
                   <Grid
                     xs={12}
                     sx={{
                       position: "relative",
                       top: { xs: "9px", md: "4vw" },
-                    }}
-                  >
+                    }}>
                     <Typography
                       sx={{
                         textAlign: "end",
                         color: theme.palette.primary.contrastText,
                         float: "right",
                         fontSize: { xs: "1.6rem", md: "2rem", sm: "1.8rem" },
-                      }}
-                    >
+                      }}>
                       <Box
                         component={"span"}
                         sx={{
@@ -261,8 +235,7 @@ export default function HeroSection() {
                             "-webkit-linear-gradient(45deg, #ff512f 30%, #dd2476 90%)",
                           WebkitBackgroundClip: "text",
                           WebkitTextFillColor: "transparent",
-                        }}
-                      >
+                        }}>
                         Au{" "}
                       </Box>
                       <Box
@@ -284,8 +257,7 @@ export default function HeroSection() {
                             "-webkit-linear-gradient(45deg, #ff512f 30%, #dd2476 90%)",
                           WebkitBackgroundClip: "text",
                           WebkitTextFillColor: "transparent",
-                        }}
-                      >
+                        }}>
                         Andohatapenaka
                       </Box>
                     </Typography>
@@ -303,8 +275,7 @@ export default function HeroSection() {
                       fontWeight: "512",
                       display: "flex",
                       fontSize: { xs: "2.7rem", sm: "3rem" },
-                    }}
-                  >
+                    }}>
                     <Box
                       component={"span"}
                       sx={{
@@ -312,8 +283,7 @@ export default function HeroSection() {
                           "-webkit-linear-gradient(45deg, 	#ffab00 30%, #a6001a 90%)",
                         WebkitBackgroundClip: "text",
                         WebkitTextFillColor: "transparent",
-                      }}
-                    >
+                      }}>
                       {minuteur.day}
                       <Box
                         component={"span"}
@@ -321,8 +291,7 @@ export default function HeroSection() {
                           display: "block",
                           fontSize: "1rem",
                           textAlign: "center",
-                        }}
-                      >
+                        }}>
                         Jours
                       </Box>
                     </Box>
@@ -334,8 +303,7 @@ export default function HeroSection() {
                           "-webkit-linear-gradient(45deg, 	#ffab00 30%, #a6001a 90%)",
                         WebkitBackgroundClip: "text",
                         WebkitTextFillColor: "transparent",
-                      }}
-                    >
+                      }}>
                       {minuteur.hour}
                       <Box
                         component={"span"}
@@ -343,8 +311,7 @@ export default function HeroSection() {
                           display: "block",
                           fontSize: "1rem",
                           textAlign: "center",
-                        }}
-                      >
+                        }}>
                         Heurs
                       </Box>
                     </Box>
@@ -356,8 +323,7 @@ export default function HeroSection() {
                           "-webkit-linear-gradient(45deg, 	#ffab00 30%, #a6001a 90%)",
                         WebkitBackgroundClip: "text",
                         WebkitTextFillColor: "transparent",
-                      }}
-                    >
+                      }}>
                       {minuteur.min}
                       <Box
                         component={"span"}
@@ -366,17 +332,10 @@ export default function HeroSection() {
                           display: "block",
                           fontSize: "1rem",
                           textAlign: "center",
-                        }}
-                      >
+                        }}>
                         Minute
                       </Box>
                     </Box>
-                    {/* <Space/> : <Space/>
-                      <Box component={'span'}>
-                          {minuteur.sec} 
-                        <Box component={"span"}  sx={{display:"block",fontSize:"1rem",textAlign:"center"}}>second</Box> 
-
-                      </Box> */}
                   </Typography>
                 </Grid>
               </Grid>

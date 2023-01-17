@@ -25,9 +25,8 @@ export function Navigation() {
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
   const containerRef = React.useRef(null);
   const { height } = useDimensions(containerRef);
-  const [option, setOption] = React.useState("/");
   const navigate = useNavigate();
-
+  const [path, setPath] = React.useState(window.location.pathname);
   const [hidden, setHidden] = useState(false);
 
   function update() {
@@ -49,6 +48,10 @@ export function Navigation() {
     return scrollY.onChange(() => update());
   });
 
+  React.useEffect(() => {
+    setPath(window.location.pathname);
+  }, [window.location.pathname]);
+
   return (
     <motion.div
       className="nav"
@@ -64,11 +67,10 @@ export function Navigation() {
         zIndex: "2000",
         background: "rgba(145, 235, 255, 0.65)",
         boxShadow: "3px 3px 3px #0000007a",
-      }}
-    >
-      <div onClick={() => setOption("/")} class="logo">
+      }}>
+      <div class="logo">
         <Box
-          class={option === "/" ? "active" : "test"}
+          class={path === "/" ? "active" : "test"}
           onClick={() => navigate("/")}
           component={"img"}
           sx={{
@@ -80,32 +82,28 @@ export function Navigation() {
           alt=""
         />
       </div>
-      {/*<div class="logo">Digi<Box component={"span"} sx={{color:"#0040ff"}}>tex</Box></div> */}
       <Box sx={{ display: { xs: "block", md: "none" } }}>
         <NavDrawer />
       </Box>
       <ul>
-        <li onClick={() => setOption("/")}>
+        <li>
           <button
-            class={option === "/" ? "active" : "test"}
-            onClick={() => navigate("/")}
-          >
+            class={path === "/" ? "active" : "test"}
+            onClick={() => navigate("/")}>
             Accueil
           </button>
         </li>
-        <li onClick={() => setOption("/Thématique")}>
+        <li>
           <button
-            class={option === "/Thématique" ? "active" : "test"}
-            onClick={() => navigate("/Thematics")}
-          >
+            class={path === `/Thematics` ? "active" : "test"}
+            onClick={() => navigate(`/Thematics`)}>
             Thématique
           </button>
         </li>
-        <li onClick={() => setOption("/Programme")}>
+        <li>
           <button
-            class={option === "/Programme" ? "active" : "test"}
-            onClick={() => navigate("/Programme")}
-          >
+            class={path === `/Programme` ? "active" : "test"}
+            onClick={() => navigate(`/Programme`)}>
             Programme
           </button>
         </li>
