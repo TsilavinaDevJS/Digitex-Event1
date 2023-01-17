@@ -157,7 +157,7 @@ export default function Thématique() {
             </Grid>
             <Grid xs={9}>
               <Para2>
-                Fournisseurs d'application et de solutions numériques,
+                Startup, fournisseurs d'application et de solutions numériques,
               </Para2>
             </Grid>
           </Grid>
