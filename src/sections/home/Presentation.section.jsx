@@ -51,11 +51,10 @@ export function Presentation() {
           </ContentTitle>
           <Box p={2}>
             <Para2>
-              A l'ére de l'entreprise digitale, l'innovation et l'accélération
-              vers le numérique engagent les entreprises vers une évolution
-              croissante. Plus que jamais, celle-ci doivent s'appuyer sur les
-              nouvelles technologies pour rester pérennes dans un contexte
-              incertain.
+              A l'ére du digitale, l'innovation et l'accélération vers le
+              numérique engagent les entreprises vers une évolution croissante.
+              Plus que jamais, celle-ci doivent s'appuyer sur les nouvelles
+              technologies pour rester pérennes dans un contexte incertain.
             </Para2>
             <br />
             <Para2>

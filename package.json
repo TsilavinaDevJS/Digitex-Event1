@@ -17,6 +17,8 @@
     "framer-motion": "^6.5.1",
     "i18next": "^21.9.2",
     "jquery": "^3.6.0",
+    "mobx": "5.9.0",
+    "mobx-react-lite": "1.0.1",
     "react": "^18.1.0",
     "react-animated-cursor": "^2.5.1",
     "react-dnd": "^16.0.1",

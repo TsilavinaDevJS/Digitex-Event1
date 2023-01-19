@@ -121,16 +121,6 @@ export default function Programme() {
                     économique,
                   </Typography>
                 </Box>
-                <Box component={"li"} className={classes.ComponentList}>
-                  <Typography
-                    className={classes.List}
-                    sx={{
-                      fontSize: { xs: "3.2vw", sm: "1rem" },
-                      fontWeight: "512",
-                    }}>
-                    10h : Fintech et Cryptomonnaie
-                  </Typography>
-                </Box>
               </Box>
             </Grid>
           </ContentTitle>
@@ -211,7 +201,7 @@ export default function Programme() {
                       fontSize: { xs: "3.2vw", sm: "1rem" },
                       fontWeight: "512",
                     }}>
-                    9h-12h : Pitcher votre projets et votre idées
+                    9h-12h : Pitchez vos projets et votre idées
                   </Typography>
                 </Box>
                 <Box component={"li"} className={classes.ComponentList}>
@@ -221,7 +211,7 @@ export default function Programme() {
                       fontSize: { xs: "3.2vw", sm: "1rem" },
                       fontWeight: "512",
                     }}>
-                    10h : Financer vos projects innovants
+                    10h : Comment financer vos projects innovants?
                   </Typography>
                 </Box>
               </Box>
